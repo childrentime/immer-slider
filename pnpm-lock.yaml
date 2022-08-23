@@ -4,11 +4,13 @@ specifiers:
   '@slidev/cli': ^0.35.5
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
+  immer: ^9.0.15
 
 dependencies:
   '@slidev/cli': 0.35.5_postcss@8.4.16
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
+  immer: 9.0.15
 
 packages:
 
@@ -1924,6 +1926,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       safer-buffer: 2.1.2
+    dev: false
+
+  /immer/9.0.15:
+    resolution: {integrity: sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==}
     dev: false
 
   /import-from/4.0.0:
